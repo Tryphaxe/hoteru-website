@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HoTeru | Trouvez l'hôtel qu'il vous faut !</title>
+
+    <!-- ===========IMPORT STYLE CSS============ -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- ===========IMPORT BOOTSTRAP STYLE CSS============ -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css.map">
+
+    <!-- ===============IMPORT FONT AWESOME ICON CDN=============== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- ===========IMPORT FAVICON============ -->
+    <link rel="shortcut icon" href="./im/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="container">
+        <header
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+            <div class="col-md-3 mb-2 mb-md-0">
+                <a href="./html/admin_hotel.html" class="d-inline-flex link-body-emphasis text-decoration-none">
+                    <img src="./im/hoteruicon.png" class="bi" width="40" height="40" role="img" aria-label="Tirant"
+                        _mstaria-label="138918" _mstHash="19">
+                </a>
+            </div>
+
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="./index.html" class="nav-link px-2" _msttexthash="111306"
+                        _msthash="20" style="color: #ff9677;">Acceuil</a></li>
+                <li><a href="./html/vp_hotel.html" class="nav-link px-2" _msttexthash="326092"
+                        _msthash="21">HoTeru Pro</a></li>
+                <li><a href="#" class="nav-link px-2" _msttexthash="95446" _msthash="22">Contact</a></li>
+                <li><a href="#" class="nav-link px-2" _msttexthash="97383" _msthash="24">A propos</a></li>
+            </ul>
+
+            <div class="btn-connect col-md-3 text-end">
+                <a href="./html/connexion.html" class="connect button1 me-2"><i class="fa-solid fa-user" style="margin-right: 8px;"></i>Se connecter</a>
+                <a href="./html/user_inscription.html" class="connect button2"><i class="fa-solid fa-user-plus" style="margin-right: 8px;"></i>S'inscrire</a>
+            </div>
+        </header>
+    </div>
+
+    <!-- ===========BACKGROUND============ -->
+
+    <div class="bg">
+        <div class="bg-content">
+            <p>Trouvez Un Hôtel Rapidement...</p>
+
+            <span>Un endroit parfait pour des weekend et vacances incroyable</span>
+
+            <form action="" method="GET" class="block-search">
+                <div class="service">
+                    <span style="color: black;">Services</span>
+                    <div class="serv">
+                        <input type="checkbox" name="" id="option1">
+                        <label for="option1"> <img src="./im/1x/pool.png" alt=""> Piscine</label>
+                        <input type="checkbox" name="" id="option2">
+                        <label for="option2"> <img src="./im/1x/wifi.png" alt=""> Wifi</label>
+                        <input type="checkbox" name="" id="option3">
+                        <label for="option3"> <img src="./im/1x/clim.png" alt=""> Clim</label>
+                        <input type="checkbox" name="" id="option4">
+                        <label for="option4"> <img src="./im/1x/restaurant.png" alt=""> Dîner</label>
+                        <input type="checkbox" name="" id="option5">
+                        <label for="option5"> <img src="./im/1x/emoji_food_beverage.png" alt=""> P-dej</label>
+                    </div>
+                </div>
+                <div class="search">
+                    <span style="color: black;">Position</span>
+                    <div class="input-control">
+                        <img src="./im/1x/location_pin.png" alt="">
+                        <input type="text" placeholder="Exemple (Abidjan)">
+                    </div>
+                </div>
+                <a href="#" class="btsearch"><img src="./im/1x/zoom.png" alt=""></a>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- CODE HERO POUR INSCRIPTION UTILISATEUR-->
+    <div class="container my-5">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                <h1 class="display-4 fw-bold lh-1 text-body-emphasis" _msttexthash="1631227" _msthash="30">Détendez-vous
+                    !</h1>
+                <p class="lead" _msttexthash="44418985" _msthash="31">
+                    Vous avez désormais tout le temps de rechercher un hôtel splendide et incroyable pour vos weekend et
+                    vacances. Avec HoTeru, réservez votre chambre sans précipitation ! Alors, inscrivez-vous
+                </p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                    <a href="./html/connexion.html" class="me-md-2 fw-bold"
+                        style="background-color: #550032; text-decoration: none; padding: 10px 40px; border-radius: 10px; color: rgb(255, 255, 255);">Je
+                        m'inscris</a>
+                </div>
+            </div>
+            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                <img class="rounded-lg-3" src="./im/receptionniste.jpg" alt="" width="720">
+            </div>
+        </div>
+    </div>
+
+    <!-- CODE POUR LE CORPS DE LA PAGE -->
+    <div class="block-container">
+        <label class="title">Recommandations pour vous</label>
+        <div class="block-content row">
+            <div class="block col-xl-3 col-md-4">
+                <div class="block-bg">
+                    <label class="reduc">
+                        70% Off
+                    </label>
+                </div>
+                <div class="block-info">
+                    <div class="block-nom">
+                        <label>Azalai</label>
+                    </div>
+                    <div class="block-des">
+                        <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut minus alias soluta, adipisci
+                            est quidem!</label>
+                    </div>
+                    <div class="block-serv">
+                        <i class="gp fa-solid fa-person-swimming fa-lg fa-fade"></i>
+                        <i class="gp fa-solid fa-utensils fa-lg fa-fade"></i>
+                        <i class="gp fa-solid fa-fan fa-lg fa-fade"></i>
+                    </div>
+                    <div class="block-plus">
+                        <label>50.000 Fcfa / Nuit</label>
+                        <a href="./html/description_hotel.html" class="plus">Voir +</a>
+                    </div>
+                </div>
+            </div>
+            <div class="block col-xl-3 col-md-4">
+                <div class="block-bg">
+                    <label class="reduc">
+                        20% Off
+                    </label>
+                </div>
+                <div class="block-info">
+                    <div class="block-nom">
+                        <label>Noom</label>
+                    </div>
+                    <div class="block-des">
+                        <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut minus alias soluta, adipisci
+                            est quidem!</label>
+                    </div>
+                    <div class="block-serv">
+                        <i class="gp fa-solid fa-person-swimming fa-lg fa-fade"></i>
+                        <i class="gp fa-solid fa-utensils fa-lg fa-fade"></i>
+                        <i class="gp fa-solid fa-fan fa-lg fa-fade"></i>
+                    </div>
+                    <div class="block-plus">
+                        <label>70.000 Fcfa / Nuit</label>
+                        <a href="" class="plus">Voir +</a>
+                    </div>
+                </div>
+            </div>
+            <div class="block col-xl-3 col-md-4">
+                <div class="block-bg">
+                    <label class="reduc">
+                        40% Off
+                    </label>
+                </div>
+                <div class="block-info">
+                    <div class="block-nom">
+                        <label>Ibis</label>
+                    </div>
+                    <div class="block-des">
+                        <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut minus alias soluta, adipisci
+                            est quidem!</label>
+                    </div>
+                    <div class="block-serv">
+                        <i class="gp fa-solid fa-person-swimming fa-lg fa-fade"></i>
+                        <i class="gp fa-solid fa-utensils fa-lg fa-fade"></i>
+                        <i class="gp fa-solid fa-fan fa-lg fa-fade"></i>
+                    </div>
+                    <div class="block-plus">
+                        <label>30.000 Fcfa / Nuit</label>
+                        <a href="" class="plus">Voir +</a>
+                    </div>
+                </div>
+            </div>
+            <div class="block col-xl-3 col-md-4">
+                <div class="block-bg">
+                    <label class="reduc">
+                        40% Off
+                    </label>
+                </div>
+                <div class="block-info">
+                    <div class="block-nom">
+                        <label>Ibis</label>
+                    </div>
+                    <div class="block-des">
+                        <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut minus alias soluta, adipisci
+                            est quidem!</label>
+                    </div>
+                    <div class="block-serv">
+                        <i class="gp fa-solid fa-person-swimming fa-lg fa-fade"></i>
+                        <i class="gp fa-solid fa-utensils fa-lg fa-fade"></i>
+                        <i class="gp fa-solid fa-fan fa-lg fa-fade"></i>
+                    </div>
+                    <div class="block-plus">
+                        <label>30.000 Fcfa / Nuit</label>
+                        <a href="" class="plus">Voir +</a>
+                    </div>
+                </div>
+            </div>
+            <div class="block col-xl-3 col-md-4">
+                <div class="block-bg">
+                    <label class="reduc">
+                        40% Off
+                    </label>
+                </div>
+                <div class="block-info">
+                    <div class="block-nom">
+                        <label>Ibis</label>
+                    </div>
+                    <div class="block-des">
+                        <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut minus alias soluta, adipisci
+                            est quidem!</label>
+                    </div>
+                    <div class="block-serv">
+                        <i class="gp fa-solid fa-person-swimming fa-lg fa-fade"></i>
+                        <i class="gp fa-solid fa-utensils fa-lg fa-fade"></i>
+                        <i class="gp fa-solid fa-fan fa-lg fa-fade"></i>
+                    </div>
+                    <div class="block-plus">
+                        <label>30.000 Fcfa / Nuit</label>
+                        <a href="" class="plus">Voir +</a>
+                    </div>
+                </div>
+            </div>
+            <div class="block col-xl-3 col-md-4">
+                <div class="block-bg">
+                    <label class="reduc">
+                        40% Off
+                    </label>
+                </div>
+                <div class="block-info">
+                    <div class="block-nom">
+                        <label>Ibis</label>
+                    </div>
+                    <div class="block-des">
+                        <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut minus alias soluta, adipisci
+                            est quidem!</label>
+                    </div>
+                    <div class="block-serv">
+                        <i class="gp fa-solid fa-person-swimming fa-lg fa-fade"></i>
+                        <i class="gp fa-solid fa-utensils fa-lg fa-fade"></i>
+                        <i class="gp fa-solid fa-fan fa-lg fa-fade"></i>
+                    </div>
+                    <div class="block-plus">
+                        <label>30.000 Fcfa / Nuit</label>
+                        <a href="" class="plus">Voir +</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <a href="" class="more">Voir plus...</a>
+    </div>
+
+    <!-- CODE HERO POUR HOTERU PRO -->
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold text-body-emphasis" _msttexthash="2142296" _msthash="11">Vous êtes un hôtel ?</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4" _msttexthash="44418985" _msthash="12">
+                Avec HoTeru Pro, inscrivez votre établissement et augmentez votre notoriété et votre clientèle. <br>Tous
+                cela en quelques clics !
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                <a href="./html/vp_hotel.html" class="me-md-2 fw-bold" style="background-color: #550032;
+            text-decoration: none;
+            padding: 10px 40px;
+            border-radius: 10px;
+            color: rgb(255, 255, 255);">Voir plus</a>
+            </div>
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh;">
+            <div class="container px-5">
+                <img src="./im/avz.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Exemple d’image"
+                    width="700" height="500" loading="lazy" _mstalt="201149" _msthash="15">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+            <div class="col mb-3">
+                <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                    <img class="bi me-2" src="./im/favicon.png" width="50" height="50">
+                </a>
+                <p class="text-body-secondary" _msttexthash="39988" _msthash="20">© 2023</p>
+            </div>
+
+            <!-- <div class="col mb-3">
+      
+          </div> -->
+
+            <div class="col mb-3">
+                <h5 _msttexthash="95641" _msthash="21">Liens</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" _msttexthash="111306"
+                            _msthash="22">Acceuil</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" _msttexthash="326092"
+                            _msthash="23">Services</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" _msttexthash="95446"
+                            _msthash="24">Assistances</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" _msttexthash="97383"
+                            _msthash="26">A propos</a></li>
+                </ul>
+            </div>
+
+            <div class="col mb-3">
+                <h5 _msttexthash="95641" _msthash="27">Réseaux</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" _msttexthash="111306"
+                            _msthash="28"><i class="fa-brands fa-facebook-f" style="margin-right: 10px;"></i>hoteru_pageOfficielle</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" _msttexthash="326092"
+                            _msthash="29"><i class="fa-brands fa-square-instagram" style="margin-right: 10px;"></i>HoTeru</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" _msttexthash="95446"
+                            _msthash="30"><i class="fa-brands fa-twitter" style="margin-right: 10px;"></i>@HoTeru_hote</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" _msttexthash="97383"
+                            _msthash="32"><i class="fa-solid fa-envelope" style="margin-right: 10px;"></i>hoteru@gmail.com</a></li>
+                </ul>
+            </div>
+
+            <div class="col mb-3">
+                <h5 _msttexthash="95641" _msthash="33">Autres</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" _msttexthash="111306"
+                            _msthash="34">Termes de confidentialité</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" _msttexthash="326092"
+                            _msthash="35">Conditions d'utilisations</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <footer class="footer mt-auto py-3 bg-body-tertiary">
+        <div class="container">
+            <span class="text-body-secondary" _msttexthash="1290094" _msthash="16">Dans certains hôtels, les annulations
+                doivent obligatoirement être éffectuées au moins 24 heures avant l’arrivée. Plus de détails sur le
+                site.</span>
+        </div>
+    </footer>
+
+    <!-- ==========SCRIPT AMBURGER============ -->
+    <!-- <script src="./js/scriptham.js"></script> -->
+</body>
+
+</html>

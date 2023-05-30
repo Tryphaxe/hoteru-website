@@ -1,0 +1,235 @@
+:root{
+    --rose: #FF9677;
+    --pure: #550032;
+}
+
+body{
+    background-color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+*,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+}
+
+header{
+    width: 200px;
+    height: 550px;
+    background: #55003220;
+    border-radius: 30px;
+    margin-right: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.btn-return{
+    background: white;
+    padding: 5px 25px;
+    border: 1px solid #55003220;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo img{
+    width: 180px;
+}
+.logo label{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--pure);
+}
+
+form{
+    width: 800px;
+    height: 550px;
+    background-color: #55003220;
+    overflow: hidden;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+form label{
+    font-size: 32px;
+    /* margin-bottom: 10px; */
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-content{
+    margin: 10px;
+}
+
+.btn{
+    border: none;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    background: #ffffff;
+    padding: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.btn input{
+    height: inherit;
+    width: 270px;
+    border-radius: 10px;
+    border: none;
+    text-align: left;
+    font-size: 18px;
+    outline: none;
+    background: transparent;
+}
+.btn input::placeholder{
+    color: #b4b4b4;
+    font-size: 16px;
+    /* font-style: italic; */
+}
+
+
+.btn img{
+    margin: 5px;
+    margin-right: 10px;
+    height: 20px;
+}
+
+form input[type="submit"]{
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    background: var(--rose);
+    color: white;
+    border-radius: 8px;
+    width: 100px;
+    cursor: pointer;
+}
+
+hr{
+    margin-top: 10px;
+    border: 2px solid #ff9677;
+    width: 300px;
+    border-radius: 10px;
+}
+.btn-connect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-c{
+    text-decoration: none;
+    color: rgb(39, 38, 38);
+    background: white;
+    border: 1px solid #5500322c;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inscription{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.forgot{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+.ins{
+    font-size: 14px;
+    background: #550032;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/*  LES MEDIAS QUERIES */
+
+/* MAX WIDTH 767PX */
+@media only screen and (max-width: 767px){
+    body{
+        padding-top: 20px;
+        width: initial;
+        height: initial;
+        flex-direction: column-reverse;
+    }
+    form{
+        flex-direction: column;
+        margin: 10px;
+        width: min-content;
+        padding: 20px;
+    }
+    form label{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .box-content{
+        margin: 0px;
+    }
+    .btn{
+        margin-bottom: 10px;
+    }
+    .btn input{
+        font-size: 14px;
+    }
+    form input[type="submit"]{
+        margin-top: 10px;
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+/* MAX WIDTH 767PX------1023PX */
+@media screen and (min-width: 767px) and (max-width: 1023px){
+    form{
+        margin: 20px;
+        padding: 10px 20px;
+        width: 700px;
+        height: 400px;
+    }
+}
+
+/* MAX WIDTH 1024PX */
+@media screen and (min-width: 1024px){
+}
